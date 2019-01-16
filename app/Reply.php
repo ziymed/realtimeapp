@@ -22,6 +22,6 @@ class Reply extends Model
     // One Reply Has Many Likes
     public function likes()
     {
-        return $this->belongsTo(Like::class);
+        return $this->hasMany(Like::class);
     }
 }
