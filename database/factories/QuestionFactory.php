@@ -5,7 +5,8 @@ use App\Category;
 use App\User;
 
 $factory->define(App\Question::class, function (Faker $faker) {
-    $title = $faker->sentence();
+
+    $title = $faker->sentence;
     return [
         'title' => $title,
         'slug' => str_slug($title),
