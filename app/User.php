@@ -27,4 +27,10 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+    // One User Has Many Questions
+    public function questions()
+    {
+        return $this->hasMany(Question::class);
+    }
 }
