@@ -10,7 +10,11 @@ class Category extends Model
     // One Category Has Many Questions
     public function questions()
     {
-        return $this->hasMany(Questions::class);
+        return $this->hasMany(Question::class);
     }
-    //
+
+    public function getRouteKeyName()
+    {
+        return 'slug';
+    }
 }
