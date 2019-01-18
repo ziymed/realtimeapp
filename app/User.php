@@ -33,4 +33,9 @@ class User extends Authenticatable
     {
         return $this->hasMany(Question::class);
     }
+    // One User Has Many Questions
+    public function replies()
+    {
+        return $this->hasMany(Reply::class);
+    }
 }

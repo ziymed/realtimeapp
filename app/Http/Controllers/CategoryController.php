@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Category;
+use App\Http\Resources\CategoryResource;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 
@@ -15,7 +16,7 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        return Category::all();
+        return CategoryResource::collection(Category::all());
     }
 
 
@@ -31,8 +32,8 @@ class CategoryController extends Controller
         $category->name = $request->name;
         $category->slug = str_slug($request->name);
         $category->save();
-        // Category::create($request->all());
-         return response('Created', Response::HTTP_CREATED);
+
+        return response('Created', Response::HTTP_CREATED);
     }
 
     /**
@@ -43,7 +44,7 @@ class CategoryController extends Controller
      */
     public function show(Category $category)
     {
-        return $category;
+        return new CategoryResource($category);
     }
 
     /**
@@ -59,6 +60,7 @@ class CategoryController extends Controller
             'name' => $request->name,
             'slug' => str_slug($request->name),
         ]);
+
         return response('Updated', Response::HTTP_ACCEPTED);
     }
 
@@ -71,6 +73,7 @@ class CategoryController extends Controller
     public function destroy(Category $category)
     {
         $category->delete();
+
         return response(null, Response::HTTP_NO_CONTENT);
     }
 }
