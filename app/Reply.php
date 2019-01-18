@@ -7,8 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 class Reply extends Model
 {
     protected $guarded = [];
-    // One Reply Belongs To One Question
 
+    // One Reply Belongs To One Question
     public function question()
     {
         return $this->belongsTo(Question::class);

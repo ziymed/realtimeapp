@@ -23,7 +23,7 @@ class Question extends Model
     // One Question Has Many Replies
     public function replies()
     {
-        return $this->hasMany(Reply::calss);
+        return $this->hasMany(Reply::class);
     }
 
     // One Question Belongs to One Category
