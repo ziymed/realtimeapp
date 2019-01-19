@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c31f4d77-210e-4949-bc6e-952726d4292a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/realtimeapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/realtimeapp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,17 +47,13 @@
         <option value="$PROJECT_DIR$/../app/Question.php" />
         <option value="$PROJECT_DIR$/../app/Http/Resources/QuestionResource.php" />
         <option value="$PROJECT_DIR$/../app/Http/Controllers/QuestionController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/QuestionController.php" />
         <option value="$PROJECT_DIR$/app/Category.php" />
         <option value="$PROJECT_DIR$/app/Question.php" />
         <option value="$PROJECT_DIR$/app/Reply.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ReplyController.php" />
         <option value="$PROJECT_DIR$/app/Http/Resources/QuestionResource.php" />
         <option value="$PROJECT_DIR$/app/Http/Resources/CategoryResource.php" />
         <option value="$PROJECT_DIR$/app/Http/Resources/ReplyResource.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" />
         <option value="$PROJECT_DIR$/app/Like.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/LikeController.php" />
         <option value="$PROJECT_DIR$/../jwt/composer.json" />
         <option value="$PROJECT_DIR$/../jwt/app/User.php" />
         <option value="$PROJECT_DIR$/../jwt/config/auth.php" />
@@ -72,10 +61,17 @@
         <option value="$PROJECT_DIR$/../jwt/routes/api.php" />
         <option value="$PROJECT_DIR$/../jwt/app/Http/Controllers/AuthController.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/config/auth.php" />
         <option value="$PROJECT_DIR$/routes/api.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/JwtMiddleWare.php" />
+        <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/QuestionController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ReplyController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/LikeController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" />
       </list>
     </option>
   </component>
@@ -175,8 +171,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="64" />
+    <option name="y" value="-15" />
     <option name="width" value="1616" />
     <option name="height" value="876" />
   </component>
@@ -192,6 +188,46 @@
             <path>
               <item name="realtimeapp" type="b2602c69:ProjectViewProjectNode" />
               <item name="Sites" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="realtimeapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sites" type="462c0819:PsiDirectoryNode" />
+              <item name="realtimeapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="realtimeapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sites" type="462c0819:PsiDirectoryNode" />
+              <item name="realtimeapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="realtimeapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sites" type="462c0819:PsiDirectoryNode" />
+              <item name="realtimeapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="realtimeapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sites" type="462c0819:PsiDirectoryNode" />
+              <item name="realtimeapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="realtimeapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sites" type="462c0819:PsiDirectoryNode" />
+              <item name="realtimeapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Middleware" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="realtimeapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sites" type="462c0819:PsiDirectoryNode" />
+              <item name="realtimeapp" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -241,7 +277,7 @@
       <workItem from="1547822073708" duration="7343000" />
       <workItem from="1547840155759" duration="10124000" />
       <workItem from="1547897399307" duration="4451000" />
-      <workItem from="1547919195479" duration="2319000" />
+      <workItem from="1547919195479" duration="5939000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1547827823699</created>
@@ -271,11 +307,32 @@
       <option name="project" value="LOCAL" />
       <updated>1547851122900</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="JWT package">
+      <created>1547921792186</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1547921792186</updated>
+    </task>
+    <task id="LOCAL-00006" summary="JWT package">
+      <created>1547921873662</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1547921873662</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Use JWT Middleware in controllers">
+      <created>1547927486588</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1547927486588</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40002000" />
+    <option name="totallyTimeSpent" value="43622000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -289,7 +346,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49799198" visible="true" weight="0.1722365" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49799198" visible="true" weight="0.1722365" />
       <window_info id="Structure" order="1" sideWeight="0.502008" side_tool="true" weight="0.16645244" />
       <window_info id="npm" order="2" sideWeight="0.502008" side_tool="true" weight="0.16645244" />
       <window_info id="Favorites" order="3" sideWeight="0.502008" side_tool="true" weight="0.16645244" />
@@ -301,10 +358,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32974428" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4993573" weight="0.32974428" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.4993573" visible="true" weight="0.32974428" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5012854" side_tool="true" weight="0.35531628" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49871466" visible="true" weight="0.13997309" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49871466" weight="0.13997309" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32974428" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -390,11 +447,11 @@
     <MESSAGE value="CRUD for Reply" />
     <MESSAGE value="Resourses for Category and Reply" />
     <MESSAGE value="Like and dislike" />
-    <option name="LAST_COMMIT_MESSAGE" value="Like and dislike" />
+    <MESSAGE value="JWT package" />
+    <MESSAGE value="Use JWT Middleware in controllers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Use JWT Middleware in controllers" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../database/migrations/2019_01_15_231451_create_replies_table.php" />
-    <entry file="file://$PROJECT_DIR$/../database/.gitignore" />
     <entry file="file://$PROJECT_DIR$/../database/seeds/DatabaseSeeder.php" />
     <entry file="file://$PROJECT_DIR$/../routes/api.php" />
     <entry file="file://$PROJECT_DIR$/../vendor/fzaninotto/faker/src/Faker/Generator.php" />
@@ -441,16 +498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CategoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="75" column="8" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
-          <folding>
-            <element signature="e#40#57#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Resources/CategoryResource.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -465,26 +512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReplyController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-257">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="e#40#77#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/QuestionController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" selection-start-line="54" selection-end-line="55" selection-end-column="60" />
-          <folding>
-            <element signature="e#40#80#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -492,16 +519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LikeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-          <folding>
-            <element signature="e#40#53#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -582,16 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="20" lean-forward="true" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
-          <folding>
-            <element signature="e#23#63#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-168" />
@@ -609,24 +616,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AuthController.php">
+    <entry file="file://$PROJECT_DIR$/database/factories/UserFactory.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="340">
+          <caret line="20" column="92" selection-start-line="20" selection-start-column="89" selection-end-line="20" selection-end-column="95" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="404">
+          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/UserFactory.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="92" selection-start-line="20" selection-start-column="89" selection-end-line="20" selection-end-column="95" />
+        <state relative-caret-position="102">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="9" selection-start-line="9" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#40#53#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/QuestionController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="11" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#40#80#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReplyController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#40#77#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LikeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding>
+            <element signature="e#40#53#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding>
+            <element signature="e#40#57#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
+          <folding>
+            <element signature="e#23#63#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/JwtMiddleWare.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+          <folding>
+            <element signature="e#39#51#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="62" column="12" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="12" />
         </state>
       </provider>
     </entry>
